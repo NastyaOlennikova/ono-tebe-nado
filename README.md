@@ -1,1 +1,1 @@
-# Оно тебе надо. Яндекс Практикум
+https://github.com/NastyaOlennikova/ono-tebe-nado/
