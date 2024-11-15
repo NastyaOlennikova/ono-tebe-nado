@@ -17,7 +17,7 @@
 
 .header__links-list {
     display: flex;
-    margin: 44px 36px 39px 26.52px;
+    margin: 44px 35px 39px 26.52px;
     justify-content: space-between;
     list-style-type: circle;
 }
@@ -26,6 +26,7 @@
     list-style-type: none;
 }
 
+
 .header__link_active {
     text-decoration: none;
 }
@@ -33,14 +34,12 @@
 .address {
     list-style-type: none;
     max-width: 240.52px;
-    margin: 5px 25.48px 2px 184px;
+    margin: 5px 25px 2px 187px;
     line-height: 24px;
 }
 
-.address-footer {
-    list-style-type: none;
-    margin-left: 25px;
-    line-height: 24px;
+.aligned {
+    margin-left: 33px;
 }
 
 .link {
@@ -236,25 +235,29 @@
 .about__title {
     align-self: end;
     padding-bottom: 95px;
-    padding-left: 3px;
-    padding-top: 3px;
+    padding-left: 1px;
+    padding-top: 1px;
 }
 
 .about__text {
     grid-column: 2/3;
     max-width: 687px;
-    padding-right: 3px;
+    letter-spacing: 0.2px;
 }
 
 .move {
-    padding-top: 6px;
+    margin-bottom: 25px;
+}
+
+.remove-gap {
+    gap: 0 0;
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     justify-content: space-between;
-    margin: 180px 26px 88px 26px;
+    align-items: start;
+    margin: 174px 30px 90px 20px;
 }
 
 .footer__social-icon {
@@ -267,17 +270,18 @@
     list-style-type: none;
     text-align: center;
     line-height: 21px;
+    margin-top: 4px;
+    margin-left: 15px;
 }
 
 .footer__menu-link {
     text-decoration: none;
-
 }
 
 .footer__social-list {
-    list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    margin-left: 60px;
+    list-style-type: none;
+    gap: 48px;
+    margin-top: 2px;
+    margin-right: 20px;
 }
-
